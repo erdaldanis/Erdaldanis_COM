@@ -1,0 +1,222 @@
+﻿h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.ol-dropcaps {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.secondry-font {
+    font-family: "Open Sans",Arial,sans-serif !important;
+}
+.summary-box ul.summaries li {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.summary-box .two-col-info .info-box {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.side-header .ol-user-profile .title {
+    font-family: "Open Sans",Arial,sans-serif;
+    word-wrap: break-word;
+}
+.search-area {
+}
+    .search-area.fullscreen .search-field input {
+        font-family: "Open Sans",Arial,sans-serif;
+    }
+.ol-countdown div {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+    .ol-countdown div span {
+        font-family: "Open Sans",Arial,sans-serif;
+    }
+.login-form .tab-navigation li a {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.with-social-share .social-share .items {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.course-el .course-instructor {
+    font-size: 12px;
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.course-shop-data .sub-meta {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.course-shop-data .upper-meta {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.course-purchase-btn {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.widget-rating .rate, .widget-rating .count {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.course-el-regular .course-meta li > span, .course-el-regular .course-meta li .course-instructor > span {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.events .event-nav .event-counter .number {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.events.with-index .row-index .filter-index {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.events.with-filters ul.filters li {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.ol-agenda ul.filters li {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.ol-agenda .ag-section .section-head {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.book-el .contents .item-meta .date, .course-el .contents .item-meta .date {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.book-el.mini .contents .item-meta span, .course-el.mini .contents .item-meta span {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+#header .cart > a {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+ul#primary-menu li a {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.news-posts {
+}
+    .news-posts.date-aside-list .published_date {
+        font-family: "Open Sans",Arial,sans-serif;
+    }
+.page-head .title-wrapper .info-wrapper {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.page-head h2.description {
+}
+    .page-head h2.description.alt {
+        font-family: "Open Sans",Arial,sans-serif;
+    }
+.alert {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.btn {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.icon-box {
+}
+    .icon-box.ib-edu .description {
+        font-family: "Open Sans",Arial,sans-serif;
+    }
+dl.description-item dt {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+ol.with-shaded-label li {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.dl-horizontal dt {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.fact-item .fact-number-wrap .fact-number {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.vc-card .vc-card-wrapper .title {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.ol-timeline .item-section {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.ol-timeline-tab .tl-head li {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.ol-timeline-tab .tl-content .title {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+body {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.primary-font {
+    font-family: "Open Sans",Arial,sans-serif !important;
+}
+.section-side-title .title, .section-side-title .subtitle {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.intro-box .content-side .subtitle {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.ol-price-table .head .subtitle {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.ol-countdown div span {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.course-meta-list li {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.lesson-item .title {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.widget-rating .count {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.ol-agenda .ag-section .section-body .contents .subtitle {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.ol-caption .subtitle {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.posts-list .post .entry-content .entry-title {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.page-head .title-wrapper .info-wrapper {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.page-head h2.description {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.page-head h4.head {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+dl.description-item {
+}
+    dl.description-item.dl-horizontal {
+        font-family: "Open Sans",Arial,sans-serif;
+    }
+.vc-card {
+}
+    .vc-card.mini-card .title {
+        font-family: "Open Sans",Arial,sans-serif;
+    }
+.people-carousel .sub-title {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.single-shot .testimonial-item {
+    padding: 5px 20%;
+    text-align: center;
+}
+    .single-shot .testimonial-item .their-quote {
+    }
+        .single-shot .testimonial-item .their-quote:after, .single-shot .testimonial-item .their-quote:before {
+            font-family: "Open Sans",Arial,sans-serif;
+        }
+.heading-with-sub .subtitle, .heading-with-sub .lead {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+blockquote {
+}
+    blockquote.quote {
+        font-family: "Open Sans",Arial,sans-serif;
+    }
+p {
+}
+    p.highlight {
+        font-family: "Open Sans",Arial,sans-serif;
+    }
+.sans-font {
+    font-family: "Open Sans",Arial,sans-serif !important;
+}
+.intro-box .content-side .title {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.ol-user-profile .title {
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.call-out .sub-title {
+    font-family: "Open Sans",Arial,sans-serif;
+}

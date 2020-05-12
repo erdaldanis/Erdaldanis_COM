@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/Content/images/favicon.png">
+    <!--[if IE]><link rel="SHORTCUT ICON" href="/Content/images/favicon.ico"/><![endif]-->
+    <link rel="shortcut icon" href="/Content/images/favicon.png" />
+    <title>Erdal Danış | Bilgisayar Mühendisi</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    @Styles.Render("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css")
+    @Styles.Render("/Content/vendors.css")
+    @Styles.Render("/Content/vendors-overwrites.css")
+    @Styles.Render("/Content/style.css")
+    @Styles.Render("/Content/demo3.css")
+    @Styles.Render("/Content/skin-font.css")
+    @Styles.Render("/Content/skin-color-1.css")
+    @Styles.Render("/Content/resume-common.css")
+    @Styles.Render("/Content/site-common.css")
+    @Styles.Render("/Content/custom.css")
+    @Styles.Render("/Content/academicons.min.css")
+    @Scripts.Render("/Scripts/modernizr-2.6.2.min.js")
+    @Styles.Render("~/Content/simple-line-icons.min.css")
+    @Styles.Render("/Content/fonts.css")
+    
+
+    <!-- mainpage styles -->
+    <title>@ViewBag.Title - 09 Nisan 2020 tarihi ile yapımına başlamıştır. Detaylı ve yavaş bir şekilde kodlanılacaktır. <br /> ASP.Net Mvc-5 projesidir </title>
+</head>
+<body class="fullwidth side-header slim-container">
+    <div id="wrapper" class="regular-layout"style="background-color:#033b44">
+        <header id="header" class="dark" style="background-color:#033b44">
+            <div class="head-main"style="background-color:#033b44">
+                <div class="container" style="background-color:#033b44">
+                    <div   style="background-color:#033b44"></div>
+                    <div class="logo-wrapper">
+                        <div class="ol-user-profile">
+                            <a href="/" class="avatar">
+                                <img src="~/Content/img/erdal.png">
+                            </a>
+                            <h1 class="title">Erdal Danış</h1>
+                            <span class="hidden-xs">
+                                <div class="social-media-links">
+                                    <div class="contact">
+                                        <a href="https://www.facebook.com/erdaaldanis" title="Facebook">
+                                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="https://twitter.com/erdaaldanis" title="Twitter">
+                                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="https://github.com/erdaldanis" title="Github">
+                                            <i class="fa fa-github" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="https://www.linkedin.com/in/erdaldanis/" title="LinkedIn">
+                                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="https://www.instagram.com/erdaldanis/" title="Instagram">
+                                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                            </span>
+                        </div>
+                    </div>
+                    <ul id="primary-menu">
+                        <li>
+                            @Html.ActionLink("Ana Sayfa", "Index", "Home")
+                        </li>
+                        <li>
+                            @Html.ActionLink("Genel Bilgiler", "Contact", "Home")
+                        </li>
+                        <li>
+                            @Html.ActionLink("Hakkımda", "Hakkımda", "Home")
+                        </li>
+                        <li>
+                            @Html.ActionLink("Eğitim Bilgileri & Projeler", "EgitimBilgileri", "Home")
+                        </li>
+                        <li>
+                            @Html.ActionLink("Sertifikalar", "Sertifikalar", "Home")
+                        </li>
+                        <li>
+                            @Html.ActionLink("Referanslar", "Referanslar", "Home")
+                        </li>
+                        <li>
+                            @Html.ActionLink("Kariyer", "Kariyer", "Home")
+                        </li>
+                        <li>
+                            @Html.ActionLink("Yetkinlikler", "Yetkinlikler", "Home")
+                        </li>
+                        <li>
+                            @Html.ActionLink("Gezdiğim İller", "Gezdigimiller", "Home")
+                        </li>
+
+                        <li>
+                            <a href="~/Content/file/cvTurkce.pdf"> Özgeçmiş Dosyasını İndir</a>
+                        </li>
+                    </ul>
+                    <div class="header-icons">
+                        <div class="ol-mobile-trigger hamburger hamburger--elastic">
+                            <div class="hamburger-box">
+                                <div class="hamburger-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div id="asyncmodal-container" class="modal fade" role="dialog">
+        <div id="asyncmodal-dialog" class="modal-dialog">
+            <div id="asyncmodal-content" class="modal-content">
+            </div>
+        </div>
+    </div>
+    @Scripts.Render("~/Scripts/jquery-2.1.0.min.js")
+    @Scripts.Render("~/Scripts/bootstrap.min.js")
+    @Scripts.Render("~/Scripts/jquery.validate.min.js")
+    @Scripts.Render("~/Scripts/jquery.validate.unobtrusive.min.js")
+    @Scripts.Render("~/Scripts/vendors.js")
+    @Scripts.Render("~/Scripts/revolution.extension.slideanims.min.js")
+    @Scripts.Render("~/Scripts/revolution.extension.kenburn.min.js")
+    @Scripts.Render("~/Scripts/revolution.extension.migration.min.js")
+    @Scripts.Render("~/Scripts/custom.js")
+    @Scripts.Render("~/Scripts/mobiledetector.js")
+    @Scripts.Render("~/Scripts/asyncmodal.js")
+    @Scripts.Render("~/Scripts/resume-common.js")
+    <script>
+        $(function () {
+            var url = window.location.pathname;
+            $('a[href="' + url + '"]').parent('li').addClass('current-menu-item');
+        });
+    </script>
+    <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+    @RenderBody()
+   
+   
+    @RenderSection("scripts", required: false)
+</body>
+</html>

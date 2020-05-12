@@ -1,0 +1,39 @@
+﻿.contact a i.ai-google-scholar {
+    background-color: #fff !important;
+    font-size: 1.2em !important;
+    color: #f74248 !important;
+}
+
+.contact a i.ai-orcid {
+    background-color: transparent !important;
+    font-size: 34px !important;
+    color: #A6CE39 !important;
+    width: 34px !important;
+}
+
+@media (min-width:768px) {
+    div .social-media-links .contact {
+        margin: 5px auto;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .contact a i.ai-google-scholar {
+        background-color: #c6c6c6 !important;
+        font-size: 1.2em !important;
+        color: #f74248 !important;
+    }
+
+    .contact a i.ai-orcid {
+        background-color: transparent !important;
+        font-size: 34px !important;
+        color: #A6CE39 !important;
+    }
+}
+
+.contact a i.ai-publons {
+    background-color: #336699 !important;
+    font-size: 1.2em !important;
+    color: #FFF !important;
+}

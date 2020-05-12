@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/Content/images/favicon.png">
+    <!--[if IE]><link rel="SHORTCUT ICON" href="/Content/images/favicon.ico"/><![endif]-->
+    <link rel="shortcut icon" href="/Content/images/favicon.png" />
+    <title>Erdal Danış | Bilgisayar Mühendisi</title>
+
+    @Styles.Render("/Content/vendors.css")
+    @Styles.Render("/Content/vendors-overwrites.css")
+    @Styles.Render("/Content/style.css")
+    @Styles.Render("/Content/demo3.css")
+    @Styles.Render("/Content/skin-font.css")
+    @Styles.Render("/Content/skin-color-1.css")
+    @Styles.Render("/Content/resume-common.css")
+    @Styles.Render("/Content/site-common.css")
+    @Styles.Render("/Content/custom.css")
+    @Styles.Render("/Content/academicons.min.css")
+    @Scripts.Render("/Scripts/modernizr-2.6.2.min.js")
+
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <script type="text/javascript">
+        var searchUrl = "https://avesis.atauni.edu.tr/proxy/search	"; var errorPage = 'https://avesis.atauni.edu.tr/error/index'; var dateFormat = 'dd.mm.yyyy'; var dateFormatMonthYear = 'MM yyyy'; var localizeAreYouSure = 'Emin misiniz?'; var localizeYes = 'Evet'; var localizeNo = 'Hayır'; var localizeCancel = 'İptal'; var localizeSave = 'Kaydet'; var localizeSaving = 'Kaydediliyor...'; var localizeWaiting = 'Bekleyiniz...'; var localizeSelect = 'Seçiniz'; var localizeSearch = 'Ara'; var localizeAll = 'Tümü'; var currentCulture = 'tr'; var currentCultureIsPrimary = true; var currentUniversityId = '14'; var duplicatePublication = 'Sistemde aynı bilgilerle başka bir yayın mevcuttur.'; var projectSearchRecordType = "Projeler"; var publicationSearchRecordType = "Yayınlar"; var researcherSearchRecordType = "Araştırmacılar"; var sliderProjectCount = "Proje Sayısı"; var sliderSearchUrl = '/arama'; var mapTotalText = 'Toplam'; var noDataText = "Kayıt bulunamadı";
+        var pivotUIOpenedWidth = 1580; var pivotUIOpenedHeight = 463; var pivotUIClosedWidth = 1855; var pivotUIClosedHeight = 473;
+        var defaultPlotlyConfiguration = {
+            responsive: true,
+            modeBarButtonsToRemove: [
+                'sendDataToCloud',
+                'zoom2d',
+                'zoomIn2d',
+                'zoomOut2d',
+                'pan2d',
+                'autoScale2d',
+                //'hoverClosestCartesian',
+                //'hoverCompareCartesian',
+                'lasso2d',
+                'select2d',
+                'toggleSpikelines'
+            ],
+            displaylogo: false,
+            locale: currentCulture
+        };
+    </script>
+
+    <!-- mainpage styles -->
+    @Styles.Render("~/Content/simple-line-icons.min.css")
+
+
+
+
+
+
+
+
+    <title>@ViewBag.Title - ASP.NET Uygulamam</title>
+
+
+
+</head>
+<body class="fullwidth side-header slim-container">
+    <div id="wrapper" class="regular-layout">
+        <header id="header" class="dark">
+            <div class="head-main">
+                <div class="container">
+                    <div data-img-src="/Content/img/bak.jpg" class="header-bg set-bg ov-dark-alpha-80" style="background-image: url('/Content/img/bck.jpg');"></div>
+
+                    <div class="logo-wrapper">
+                        <div class="ol-user-profile">
+                            <a href="/ezirmik" class="avatar">
+                                <img src="~/Content/img/pp.jpg">
+                            </a>
+                            <h1 class="title">Erdal Danış</h1>
+                            <span class="">
+                                <div class="social-media-links">
+                                    <div class="contact">
+                                        <a href="https://www.facebook.com/erdaaldanis" title="Facebook">
+                                            <i class="fa fa-user-o" aria-hidden="false"></i>
+
+
+                                        </a>
+                                        <a target="_blank" href="#" title="Orcid">
+                                            <i class="fa fa-user-o" aria-hidden="true"></i>
+
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </span>
+                        </div>
+                    </div>
+
+                    <ul id="primary-menu">
+                        <li>
+                            @Html.ActionLink("Ana Sayfa", "Index", "Home")
+                        </li>
+                        <li>
+                            <a href="/ezirmik/egitim"><span>Eğitim Bilgileri</span></a>
+                        </li>
+                        <li>
+                            <a href="/ezirmik/arastirma"><span>Araştırma Alanları</span></a>
+                        </li>
+                        <li>
+                            <a href="/ezirmik/deneyim"><span>Mesleki Deneyim</span></a>
+                        </li>
+                        <li>
+                            <a href="/ezirmik/yayinlar"><span>Yayınlar &amp; Eserler</span></a>
+                        </li>
+                        <li>
+                            <a href="/ezirmik/projeler"><span>Proje &amp; Patent &amp; Tasarım</span></a>
+                        </li>
+                        <li>
+                            <a href="/ezirmik/bilimselfaaliyetler"><span>Bilimsel Faaliyetler</span></a>
+                        </li>
+                        <li>
+                            <a href="/ezirmik/basarilar"><span>Başarılar &amp; Tanınırlık</span></a>
+                        </li>
+                        <li>
+                            <a href="/ezirmik/dokumanlar"><span>Duyurular &amp; Dok&#252;manlar</span></a>
+                        </li>
+                        <li>
+                            <a href="/ezirmik/iletisim"><span>İletişim</span></a>
+                        </li>
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="true">
+                                <span class="name">
+                                    <i class="fa fa-download"></i> Özgeçmiş Dosyasını İndir
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu" style="margin-left:25px;">
+                                <li>
+                                    <a href="/ezirmik/indir?languageCode=tr" class="language-name" target="_blank">
+                                        T&#252;rk&#231;e
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/ezirmik/indir?languageCode=en" class="language-name" target="_blank">
+                                        English
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="header-icons">
+                        <div class="ol-mobile-trigger hamburger hamburger--elastic">
+                            <div class="hamburger-box">
+                                <div class="hamburger-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+    </div>
+
+    <div id="asyncmodal-container" class="modal fade" role="dialog">
+        <div id="asyncmodal-dialog" class="modal-dialog">
+            <div id="asyncmodal-content" class="modal-content">
+            </div>
+        </div>
+    </div>
+
+
+    @Scripts.Render("~/Scripts/jquery-2.1.0.min.js")
+    @Scripts.Render("~/Scripts/bootstrap.min.js")
+    @Scripts.Render("~/Scripts/jquery.validate.min.js")
+    @Scripts.Render("~/Scripts/jquery.validate.unobtrusive.min.js")
+    @Scripts.Render("~/Scripts/vendors.js")
+    @Scripts.Render("~/Scripts/revolution.extension.slideanims.min.js")
+    @Scripts.Render("~/Scripts/revolution.extension.kenburn.min.js")
+    @Scripts.Render("~/Scripts/revolution.extension.migration.min.js")
+    @Scripts.Render("~/Scripts/custom.js")
+    @Scripts.Render("~/Scripts/mobiledetector.js")
+    @Scripts.Render("~/Scripts/asyncmodal.js")
+    @Scripts.Render("~/Scripts/resume-common.js")
+
+
+
+
+
+    <script>
+        $(function () {
+            var url = window.location.pathname;
+            $('a[href="' + url + '"]').parent('li').addClass('current-menu-item');
+        });
+    </script>
+    <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+    @RenderBody()
+
+
+    <div class="container body-content">
+
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - ASP.NET Uygulamam</p>
+        </footer>
+    </div>
+
+   
+    @RenderSection("scripts", required: false)
+</body>
+</html>
